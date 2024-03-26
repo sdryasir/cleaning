@@ -1,0 +1,235 @@
+:root{
+    --primaryBlue: #293c86;
+    --PrimaryYellow: #f6ec33;  
+    --secondaryBlue:#3d7ff7;
+    --PrimaryGrey:#252323;
+    --white: #ffffff;
+    --black:#000000;
+}
+
+body{
+    background-color: #efefef;
+}
+/* theme */
+.btn-theme-primary{
+    background-color: var(--PrimaryYellow);
+    border-radius: 4px;
+}
+
+
+.top-socialbar-wrapper{
+    background-color: var(--primaryBlue);
+}
+.top-social-bar{
+   display: flex;
+   justify-content: space-between;
+}
+.top-social-bar ul{
+   list-style-type: none;
+   display: flex;
+   margin: 0;
+   padding: 0;
+}
+.top-social-bar ul li a{
+   color: var(--white);
+   text-decoration: none;
+   padding: 6px;
+   display: inline-block;
+}
+.top-social-bar ul li a svg{
+    width: 15px;
+}
+.fb-icon{
+    width: 10px!important;
+}
+.main-navbar-wrapper nav .navbar-nav .nav-item svg{
+    width: 16px;
+}
+.main-carousel-wrapper .carousel-caption{
+    z-index: 99;
+    bottom: unset;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.main-carousel-wrapper .carousel-caption h5{
+    font-size: 32px;
+}
+.main-carousel-wrapper .carousel-item .btn-theme-primary svg{
+    width: 14px;
+}
+.main-carousel-wrapper{
+    position: relative;
+}
+.main-carousel-wrapper .carousel-overlay{
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.timings-card-wrapper{
+    margin-top: -44px;
+}
+.timings-card-wrapper .timing-card{
+    background-color: var(--white);
+    padding: 24px;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+.timings-card-wrapper .timing-card .triangle{
+    width: 0;
+    height: 0;
+    border-bottom: 88px solid var(--primaryBlue);
+    border-right: 100px solid transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.timings-card-wrapper .timing-card .circle{
+    background-color: var(--white);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 27px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.timings-card-wrapper .timing-card img{
+    
+    width: 25px;
+    height: 25px;
+
+}
+.timings-card-wrapper .timing-card:hover{
+    background-color: var(--primaryBlue);
+}
+.timings-card-wrapper .timing-card:hover .triangle{
+    border-bottom-color: var(--PrimaryYellow);  
+}
+.timings-card-wrapper .timing-card:hover h4{
+    color: var(--white);
+}
+
+.request-form-inner{
+    background-color: var(--primaryBlue);
+    border-radius: 4px;
+}
+.request-form-inner h4{
+    color: var(--white);
+}
+.request-form-inner hr{
+    border-color: #ffffff;
+    border-width: 3px;
+
+}
+
+.request-form-inner form button svg{
+    width: 14px;
+    margin-left: 4px;
+}
+.request-form-inner p{
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+.request-form-inner p svg{
+    width: 24px;
+    margin-right: 6px;
+}
+
+.features-accordian .accordion-item>.accordion-header .accordion-button {
+    background-color: transparent;
+}
+.features-accordian .accordion-item {
+    border: 0;
+    background-color: transparent;
+}
+
+.features-accordian .accordion-button:focus {
+    box-shadow: none;
+}
+
+.features-accordian button[aria-expanded="true"]{
+    border-bottom: 1px solid lightgrey;
+}
+
+.features-accordian a svg{
+    width: 16px;
+}
+.features-accordian button svg{
+    width: 16px;
+}
+.feature-thumbnail{
+    width: 90%;
+}
+.play-btn-wrapper svg{
+    width: 24px;
+}
+.video-thumb-wrapper{
+    position: relative;
+}
+.play-btn-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 12px solid rgba(238, 238, 238, 0.8);
+}
+.modal-body iframe{
+    width: 100%;
+    display: block;
+    height: 600px;
+}
+.modal-header{
+    position: absolute;
+    background-color: #fff;
+    top: 0;
+    right: 0;
+    z-index: 9;
+    width: 42px;
+    height: 32px;
+}
+
+.services{
+    background-color: var(--PrimaryYellow);
+}
+.lead-text{
+    text-align: center;
+}
+
+
+@font-face {
+    font-family: MrDeHaviland-Regular;
+    src: url(../fonts/MrDeHaviland-Regular.ttf);
+}
+
+.sign{
+   font-family: MrDeHaviland-Regular; 
+   font-size: 40px;
+}
+
+
+@media (max-width: 991.98px) {
+    .timings-card-wrapper .timing-card h4{
+        font-size: 17px;
+        padding-left: 36px;
+    }
+    
+ }
+
+
+
+
+
+
