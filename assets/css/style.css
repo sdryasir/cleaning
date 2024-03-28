@@ -1,5 +1,5 @@
 :root{
-    --primaryBlue: #293c86;
+    --primaryBlue: rgb(41, 60, 134);
     --PrimaryYellow: #f6ec33;  
     --secondaryBlue:#3d7ff7;
     --PrimaryGrey:#252323;
@@ -206,6 +206,37 @@ body{
 }
 .lead-text{
     text-align: center;
+}
+
+.service-card{
+    background-color: #fff;
+    padding: 64px 24px;
+}
+.service-card:hover{
+    border-bottom: 3px solid var(--primaryBlue);
+}
+.service-card:hover .icon-wrapper{
+    background-color: var(--PrimaryYellow);
+}
+.card-detail{
+    text-align: center;
+}
+.icon-wrapper{
+    background-color: rgba(41, 60, 134, .1);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 44px;
+}
+.service-card img{
+    width: 60px;
+}
+.carousel-indicators button{
+ background-color: red!important;
 }
 
 
