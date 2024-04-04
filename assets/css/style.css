@@ -299,6 +299,35 @@ body{
     display: none;
 }
 
+.estimate{
+    background-image: url(../imgs/carousel-2.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center center;
+    position: relative;
+}
+.estimate-inner{
+    position: relative;
+    z-index: 2;
+    color: #fff;
+}
+.estimate::after{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: rgba(77, 98, 183, 0.9);
+}
+.estimate-text h4::after{
+    content: '';
+    width: 73px;
+    height: 3px;
+    background-color: var(--PrimaryYellow);
+    display: block;
+    margin-top: 8px;
+}
+
+
+
 
 @font-face {
     font-family: MrDeHaviland-Regular;
